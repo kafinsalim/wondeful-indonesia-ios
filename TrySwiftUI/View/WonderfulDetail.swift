@@ -39,10 +39,9 @@ struct WonderfulDetail: View {
                     }.padding(.horizontal, 16)
                     Text(wonder.description).padding(16)
                 }.frame(width: UIScreen.main.bounds.width)
-            }
-            .frame(width: UIScreen.main.bounds.width)
-            .navigationBarTitle(Text(wonder.name), displayMode: .inline)
+            }.frame(width: UIScreen.main.bounds.width)
         }
+        .navigationBarTitle(Text(wonder.name), displayMode: .inline)
     }
 }
 
