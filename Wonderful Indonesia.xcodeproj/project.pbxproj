@@ -7,16 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		845B0F4C248CF92100CEDEB1 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B0F4B248CF92100CEDEB1 /* Profile.swift */; };
+		845B0F4E248CFA7600CEDEB1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B0F4D248CFA7600CEDEB1 /* MapView.swift */; };
+		845B0F50248D012400CEDEB1 /* WonderfulList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B0F4F248D012400CEDEB1 /* WonderfulList.swift */; };
+		845B0F52248D084700CEDEB1 /* Wonders.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845B0F51248D084700CEDEB1 /* Wonders.xcassets */; };
+		845B0F54248D088700CEDEB1 /* Wonder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B0F53248D088700CEDEB1 /* Wonder.swift */; };
+		845B0F56248D346D00CEDEB1 /* WonderfulDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B0F55248D346D00CEDEB1 /* WonderfulDetail.swift */; };
 		848FB12B2481E9A1007B22AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FB12A2481E9A1007B22AD /* AppDelegate.swift */; };
 		848FB12D2481E9A1007B22AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FB12C2481E9A1007B22AD /* SceneDelegate.swift */; };
 		848FB12F2481E9A1007B22AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FB12E2481E9A1007B22AD /* ContentView.swift */; };
 		848FB1312481E9A4007B22AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848FB1302481E9A4007B22AD /* Assets.xcassets */; };
 		848FB1342481E9A4007B22AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848FB1332481E9A4007B22AD /* Preview Assets.xcassets */; };
 		848FB1372481E9A4007B22AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848FB1352481E9A4007B22AD /* LaunchScreen.storyboard */; };
+		84E15F24248FEB96000F13BD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E15F23248FEB96000F13BD /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		848FB1272481E9A1007B22AD /* TrySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845B0F4B248CF92100CEDEB1 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		845B0F4D248CFA7600CEDEB1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		845B0F4F248D012400CEDEB1 /* WonderfulList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonderfulList.swift; sourceTree = "<group>"; };
+		845B0F51248D084700CEDEB1 /* Wonders.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Wonders.xcassets; sourceTree = "<group>"; };
+		845B0F53248D088700CEDEB1 /* Wonder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wonder.swift; sourceTree = "<group>"; };
+		845B0F55248D346D00CEDEB1 /* WonderfulDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonderfulDetail.swift; sourceTree = "<group>"; };
+		848FB1272481E9A1007B22AD /* Wonderful Indonesia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wonderful Indonesia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		848FB12A2481E9A1007B22AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848FB12C2481E9A1007B22AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		848FB12E2481E9A1007B22AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +37,7 @@
 		848FB1332481E9A4007B22AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		848FB1362481E9A4007B22AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848FB1382481E9A4007B22AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E15F23248FEB96000F13BD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,7 @@
 		848FB11E2481E9A1007B22AD = {
 			isa = PBXGroup;
 			children = (
+				84E15F23248FEB96000F13BD /* Default-568h@2x.png */,
 				848FB1292481E9A1007B22AD /* TrySwiftUI */,
 				848FB1282481E9A1007B22AD /* Products */,
 			);
@@ -48,7 +63,7 @@
 		848FB1282481E9A1007B22AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				848FB1272481E9A1007B22AD /* TrySwiftUI.app */,
+				848FB1272481E9A1007B22AD /* Wonderful Indonesia.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,7 +74,13 @@
 				848FB12A2481E9A1007B22AD /* AppDelegate.swift */,
 				848FB12C2481E9A1007B22AD /* SceneDelegate.swift */,
 				848FB12E2481E9A1007B22AD /* ContentView.swift */,
+				845B0F4B248CF92100CEDEB1 /* Profile.swift */,
+				845B0F4F248D012400CEDEB1 /* WonderfulList.swift */,
+				845B0F55248D346D00CEDEB1 /* WonderfulDetail.swift */,
+				845B0F4D248CFA7600CEDEB1 /* MapView.swift */,
 				848FB1302481E9A4007B22AD /* Assets.xcassets */,
+				845B0F51248D084700CEDEB1 /* Wonders.xcassets */,
+				845B0F53248D088700CEDEB1 /* Wonder.swift */,
 				848FB1352481E9A4007B22AD /* LaunchScreen.storyboard */,
 				848FB1382481E9A4007B22AD /* Info.plist */,
 				848FB1322481E9A4007B22AD /* Preview Content */,
@@ -78,9 +99,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		848FB1262481E9A1007B22AD /* TrySwiftUI */ = {
+		848FB1262481E9A1007B22AD /* Wonderful Indonesia */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 848FB13B2481E9A4007B22AD /* Build configuration list for PBXNativeTarget "TrySwiftUI" */;
+			buildConfigurationList = 848FB13B2481E9A4007B22AD /* Build configuration list for PBXNativeTarget "Wonderful Indonesia" */;
 			buildPhases = (
 				848FB1232481E9A1007B22AD /* Sources */,
 				848FB1242481E9A1007B22AD /* Frameworks */,
@@ -90,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = TrySwiftUI;
+			name = "Wonderful Indonesia";
 			productName = TrySwiftUI;
-			productReference = 848FB1272481E9A1007B22AD /* TrySwiftUI.app */;
+			productReference = 848FB1272481E9A1007B22AD /* Wonderful Indonesia.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 848FB1222481E9A1007B22AD /* Build configuration list for PBXProject "TrySwiftUI" */;
+			buildConfigurationList = 848FB1222481E9A1007B22AD /* Build configuration list for PBXProject "Wonderful Indonesia" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				848FB1262481E9A1007B22AD /* TrySwiftUI */,
+				848FB1262481E9A1007B22AD /* Wonderful Indonesia */,
 			);
 		};
 /* End PBXProject section */
@@ -133,8 +154,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845B0F52248D084700CEDEB1 /* Wonders.xcassets in Resources */,
 				848FB1372481E9A4007B22AD /* LaunchScreen.storyboard in Resources */,
 				848FB1342481E9A4007B22AD /* Preview Assets.xcassets in Resources */,
+				84E15F24248FEB96000F13BD /* Default-568h@2x.png in Resources */,
 				848FB1312481E9A4007B22AD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,7 +169,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845B0F50248D012400CEDEB1 /* WonderfulList.swift in Sources */,
+				845B0F56248D346D00CEDEB1 /* WonderfulDetail.swift in Sources */,
 				848FB12B2481E9A1007B22AD /* AppDelegate.swift in Sources */,
+				845B0F4C248CF92100CEDEB1 /* Profile.swift in Sources */,
+				845B0F4E248CFA7600CEDEB1 /* MapView.swift in Sources */,
+				845B0F54248D088700CEDEB1 /* Wonder.swift in Sources */,
 				848FB12D2481E9A1007B22AD /* SceneDelegate.swift in Sources */,
 				848FB12F2481E9A1007B22AD /* ContentView.swift in Sources */,
 			);
@@ -285,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TrySwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = LYHS5Z573T;
 				ENABLE_PREVIEWS = YES;
@@ -293,8 +322,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kafin.TrySwiftUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Wonderful Indonesia";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TrySwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = LYHS5Z573T;
 				ENABLE_PREVIEWS = YES;
@@ -313,8 +344,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kafin.TrySwiftUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Wonderful Indonesia";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -323,7 +355,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		848FB1222481E9A1007B22AD /* Build configuration list for PBXProject "TrySwiftUI" */ = {
+		848FB1222481E9A1007B22AD /* Build configuration list for PBXProject "Wonderful Indonesia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				848FB1392481E9A4007B22AD /* Debug */,
@@ -332,7 +364,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		848FB13B2481E9A4007B22AD /* Build configuration list for PBXNativeTarget "TrySwiftUI" */ = {
+		848FB13B2481E9A4007B22AD /* Build configuration list for PBXNativeTarget "Wonderful Indonesia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				848FB13C2481E9A4007B22AD /* Debug */,
