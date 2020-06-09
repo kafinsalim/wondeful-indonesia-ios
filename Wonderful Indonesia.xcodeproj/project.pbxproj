@@ -15,7 +15,6 @@
 		845B0F56248D346D00CEDEB1 /* WonderfulDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B0F55248D346D00CEDEB1 /* WonderfulDetail.swift */; };
 		848FB12B2481E9A1007B22AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FB12A2481E9A1007B22AD /* AppDelegate.swift */; };
 		848FB12D2481E9A1007B22AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FB12C2481E9A1007B22AD /* SceneDelegate.swift */; };
-		848FB12F2481E9A1007B22AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FB12E2481E9A1007B22AD /* ContentView.swift */; };
 		848FB1312481E9A4007B22AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848FB1302481E9A4007B22AD /* Assets.xcassets */; };
 		848FB1342481E9A4007B22AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848FB1332481E9A4007B22AD /* Preview Assets.xcassets */; };
 		848FB1372481E9A4007B22AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848FB1352481E9A4007B22AD /* LaunchScreen.storyboard */; };
@@ -32,7 +31,6 @@
 		848FB1272481E9A1007B22AD /* Wonderful Indonesia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wonderful Indonesia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		848FB12A2481E9A1007B22AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848FB12C2481E9A1007B22AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		848FB12E2481E9A1007B22AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		848FB1302481E9A4007B22AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848FB1332481E9A4007B22AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		848FB1362481E9A4007B22AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8476FEFF248FF14E0028EA53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				845B0F53248D088700CEDEB1 /* Wonder.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8476FF00248FF1540028EA53 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				848FB1352481E9A4007B22AD /* LaunchScreen.storyboard */,
+				845B0F4B248CF92100CEDEB1 /* Profile.swift */,
+				845B0F4F248D012400CEDEB1 /* WonderfulList.swift */,
+				845B0F55248D346D00CEDEB1 /* WonderfulDetail.swift */,
+				845B0F4D248CFA7600CEDEB1 /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8476FF01248FF1590028EA53 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				848FB12A2481E9A1007B22AD /* AppDelegate.swift */,
+				848FB12C2481E9A1007B22AD /* SceneDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		848FB11E2481E9A1007B22AD = {
 			isa = PBXGroup;
 			children = (
@@ -71,17 +98,11 @@
 		848FB1292481E9A1007B22AD /* TrySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				848FB12A2481E9A1007B22AD /* AppDelegate.swift */,
-				848FB12C2481E9A1007B22AD /* SceneDelegate.swift */,
-				848FB12E2481E9A1007B22AD /* ContentView.swift */,
-				845B0F4B248CF92100CEDEB1 /* Profile.swift */,
-				845B0F4F248D012400CEDEB1 /* WonderfulList.swift */,
-				845B0F55248D346D00CEDEB1 /* WonderfulDetail.swift */,
-				845B0F4D248CFA7600CEDEB1 /* MapView.swift */,
+				8476FF01248FF1590028EA53 /* Controller */,
+				8476FF00248FF1540028EA53 /* View */,
+				8476FEFF248FF14E0028EA53 /* Model */,
 				848FB1302481E9A4007B22AD /* Assets.xcassets */,
 				845B0F51248D084700CEDEB1 /* Wonders.xcassets */,
-				845B0F53248D088700CEDEB1 /* Wonder.swift */,
-				848FB1352481E9A4007B22AD /* LaunchScreen.storyboard */,
 				848FB1382481E9A4007B22AD /* Info.plist */,
 				848FB1322481E9A4007B22AD /* Preview Content */,
 			);
@@ -176,7 +197,6 @@
 				845B0F4E248CFA7600CEDEB1 /* MapView.swift in Sources */,
 				845B0F54248D088700CEDEB1 /* Wonder.swift in Sources */,
 				848FB12D2481E9A1007B22AD /* SceneDelegate.swift in Sources */,
-				848FB12F2481E9A1007B22AD /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
